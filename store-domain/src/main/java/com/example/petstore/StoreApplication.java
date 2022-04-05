@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableAspectJAutoProxy
 
-public class PetApplication {
+public class StoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PetApplication.class, args);
+		SpringApplication.run(StoreApplication.class, args);
 	}
 
 
